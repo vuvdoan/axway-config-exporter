@@ -5,7 +5,7 @@ mvn package
 
 ## How to run
 ```
-java -jar axway-config-exporter.jar -host int-api-manager.bmwgroup.net -port 443 -u <your user> -p <your password> -a /mrpcomplex/weather/v1 -o weather-v1.json
+java -jar axway-config-exporter.jar -host <api-manager> -port 443 -u <your user> -p <your password> -a /mrpcomplex/weather/v1 -o weather-v1.json
 ```
 
 whereas: 
