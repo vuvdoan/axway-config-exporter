@@ -10,8 +10,8 @@ java -jar axway-config-exporter.jar -host int-api-manager.bmwgroup.net -port 443
 
 whereas: 
 - __host__: the API Manager host name
-- port: the API Manager port
-- u: the API Manager user name
-- p: the API Manager user password
-- a: the resource path of API, which should be exported as JSON. The resource path is considered as unique identifier
-- o: the output name of the exported Axway API config file
+- __port__: the API Manager port
+- __u__: the API Manager user name
+- __p__: the API Manager user password
+- __a__: the resource path of API, which should be exported as JSON. The resource path is considered as unique identifier
+- __o__: the output name of the exported Axway API config file
